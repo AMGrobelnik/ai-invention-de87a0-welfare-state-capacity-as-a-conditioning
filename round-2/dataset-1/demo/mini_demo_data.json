@@ -1,0 +1,109 @@
+{
+  "datasets": [
+    {
+      "dataset": "welfare_state_democracy_panel_1990_2023",
+      "examples": [
+        {
+          "input": "{\"democracy_polity\": -8.0, \"regime_polity\": 0.0, \"democracy_eiu\": 2.5, \"regime_eiu\": 0.0, \"inequality_gini\": 45.0, \"welfare_capacity_gdp_share\": 5.0, \"educ_polarization_gini\": 83.84, \"post_1990_democratizer\": 0.0, \"post_transition\": 0.0}",
+          "output": "-8.0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "democracy_polity",
+            "regime_polity",
+            "democracy_eiu",
+            "regime_eiu",
+            "inequality_gini",
+            "welfare_capacity_gdp_share",
+            "educ_polarization_gini",
+            "post_1990_democratizer",
+            "post_transition"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 0,
+          "metadata_country": "Afghanistan",
+          "metadata_year": 1990
+        },
+        {
+          "input": "{\"democracy_polity\": 10.0, \"regime_polity\": 2.0, \"democracy_eiu\": 8.5, \"regime_eiu\": 2.0, \"inequality_gini\": 30.0, \"welfare_capacity_gdp_share\": 25.0, \"educ_polarization_gini\": 35.0, \"post_1990_democratizer\": 0.0, \"post_transition\": 0.0}",
+          "output": "10.0",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "democracy_polity",
+            "regime_polity",
+            "democracy_eiu",
+            "regime_eiu",
+            "inequality_gini",
+            "welfare_capacity_gdp_share",
+            "educ_polarization_gini",
+            "post_1990_democratizer",
+            "post_transition"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 100,
+          "metadata_country": "Sweden",
+          "metadata_year": 1990
+        },
+        {
+          "input": "{\"democracy_polity\": 8.0, \"regime_polity\": 2.0, \"democracy_eiu\": 7.5, \"regime_eiu\": 2.0, \"inequality_gini\": 35.0, \"welfare_capacity_gdp_share\": 20.0, \"educ_polarization_gini\": 40.0, \"post_1990_democratizer\": 0.0, \"post_transition\": 0.0}",
+          "output": "8.0",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "democracy_polity",
+            "regime_polity",
+            "democracy_eiu",
+            "regime_eiu",
+            "inequality_gini",
+            "welfare_capacity_gdp_share",
+            "educ_polarization_gini",
+            "post_1990_democratizer",
+            "post_transition"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 200,
+          "metadata_country": "Germany",
+          "metadata_year": 1995
+        },
+        {
+          "input": "{\"democracy_polity\": -5.0, \"regime_polity\": 0.0, \"democracy_eiu\": 3.5, \"regime_eiu\": 0.0, \"inequality_gini\": 55.0, \"welfare_capacity_gdp_share\": 8.0, \"educ_polarization_gini\": 70.0, \"post_1990_democratizer\": 1.0, \"post_transition\": 1.0}",
+          "output": "-5.0",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "democracy_polity",
+            "regime_polity",
+            "democracy_eiu",
+            "regime_eiu",
+            "inequality_gini",
+            "welfare_capacity_gdp_share",
+            "educ_polarization_gini",
+            "post_1990_democratizer",
+            "post_transition"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 300,
+          "metadata_country": "Russia",
+          "metadata_year": 1995
+        },
+        {
+          "input": "{\"democracy_polity\": 7.0, \"regime_polity\": 2.0, \"democracy_eiu\": 7.0, \"regime_eiu\": 2.0, \"inequality_gini\": 40.0, \"welfare_capacity_gdp_share\": 15.0, \"educ_polarization_gini\": 45.0, \"post_1990_democratizer\": 1.0, \"post_transition\": 1.0}",
+          "output": "7.0",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "democracy_polity",
+            "regime_polity",
+            "democracy_eiu",
+            "regime_eiu",
+            "inequality_gini",
+            "welfare_capacity_gdp_share",
+            "educ_polarization_gini",
+            "post_1990_democratizer",
+            "post_transition"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 400,
+          "metadata_country": "Poland",
+          "metadata_year": 2000
+        }
+      ]
+    }
+  ]
+}
