@@ -1,0 +1,32 @@
+{
+  "references": [
+    {"doi": "10.2307/1952518", "author": "Lipset", "year": 1959},
+    {"title": "Unwelcome Change: Coming to Terms with Democratic Backsliding", "author": "Waldner", "year": 2018},
+    {"title": "Backsliding: Democratic Regress in the Contemporary World", "author": "Haggard", "year": 2021},
+    {"doi": "10.1257/aer.96.2.325", "author": "Acemoglu", "year": 2006},
+    {"title": "Democracy, Redistribution, and Inequality", "author": "Acemoglu", "year": 2019},
+    {"doi": "10.1007/s10887-006-9002-9", "author": "Glaeser", "year": 2007},
+    {"title": "Polyarchy: Participation and Opposition", "author": "Dahl", "year": 1971},
+    {"doi": "10.1257/aer.98.3.808", "author": "Acemoglu", "year": 2008},
+    {"doi": "10.1017/S0003055400037439", "author": "Ansell", "year": 2013},
+    {"doi": "10.2307/2657260", "author": "Korpi", "year": 1998},
+    {"title": "Democracy and the Left: Social Policy and Inequality in Latin America", "author": "Huber", "year": 2012},
+    {"title": "Instrumental Variables and Causal Mechanisms: Unpacking the Effect of Trade on Workers and Voters", "author": "Dippel", "year": 2017},
+    {"title": "Estimating Dynamic Panel Data Models in Political Science", "author": "Wawro", "year": 2002},
+    {"doi": "10.1596/1813-9450-2525", "author": "Thomas", "year": 2001},
+    {"title": "Global Dynamics of Gini Coefficients of Education for 146 Countries", "author": "Crespo Cuaresma", "year": 2016},
+    {"doi": "10.1017/S0007123412000450", "author": "Persson", "year": 2014},
+    {"title": "Cross-Country Trends in Affective Polarization", "author": "Boxell", "year": 2021},
+    {"title": "Democracy and Redistribution", "author": "Boix", "year": 2003},
+    {"title": "Inequality and Democratization: An Elite-Competition Approach", "author": "Ansell", "year": 2014},
+    {"title": "Fiscal Capacity, Democratic Institutions and Social Welfare", "author": "Tang", "year": 2020},
+    {"title": "Mediation Analysis Is Harder than It Looks", "author": "Bullock", "year": 2011},
+    {"title": "Polity IV Project: Political Regime Characteristics and Transitions, 1800-2018", "author": "Marshall", "year": 2019},
+    {"title": "World Income Inequality Database (WIID)", "author": "UNU-WIDER", "year": 2024},
+    {"title": "OECD Social Expenditure Database (SOCX)", "author": "OECD", "year": 2025},
+    {"doi": "10.1017/S0003055409990132", "author": "Cheibub", "year": 2010},
+    {"doi": "10.1080/19312458.2012.679140", "author": "Preacher", "year": 2012},
+    {"doi": "10.1207/s15327906mbr4201_1", "author": "Preacher", "year": 2007},
+    {"doi": "10.1038/s41562-020-0912-z", "author": "Simonsohn", "year": 2020}
+  ]
+}

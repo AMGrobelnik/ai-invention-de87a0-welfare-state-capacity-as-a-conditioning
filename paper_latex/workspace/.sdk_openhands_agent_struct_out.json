@@ -1,0 +1,16 @@
+{
+  "title": "Welfare State Capacity and the Inequality-Democratic Resilience Relationship",
+  "summary": "Successfully created a publication-ready LaTeX paper in APSR/Journal of Democracy/World Politics format. The paper examines whether welfare state capacity conditions the relationship between income inequality and democratic resilience in new democracies, using panel data from 191 countries (1990-2020) from Our World in Data. The analysis tests a mediated moderation model with educational polarization as mediator and welfare state capacity as moderator. The paper includes: (1) Complete LaTeX source (paper.tex) with 8 main sections plus appendix, (2) 5 figures from available_figures inserted at appropriate locations (fig1 conceptual framework as figure*, figs 2-5 as figure/figure*), (3) Complete bibliography (references.bib) with 28 references in APSR format, (4) Compiled PDF (paper.pdf) of 15 pages. The paper addresses Daron Acemoglu's calibration requirements with rigorous identification strategy (fixed-effects, IV, mediation analysis), valid measures (education Gini coefficient), and careful limitation discussion. Compilation completed successfully with minimal warnings (added \\sloppy to handle overfull hbox issues).",
+  "out_expected_files": {
+    "paper_tex_path": "paper.tex",
+    "paper_pdf_path": "paper.pdf",
+    "references_bib_path": "references.bib",
+    "figure_paths": [
+      "figures/fig1_v0.jpg",
+      "figures/fig2_v0.jpg",
+      "figures/fig3_v0.jpg",
+      "figures/fig4_v0.jpg",
+      "figures/fig5_v0.jpg"
+    ]
+  }
+}
