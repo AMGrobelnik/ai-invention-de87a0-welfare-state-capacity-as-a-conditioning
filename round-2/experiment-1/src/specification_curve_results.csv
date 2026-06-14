@@ -1,0 +1,9 @@
+spec_id,dependent_var,treatment_var,mediator_var,moderator_var,control_set,coefficient,std_error,p_value,significant,n_obs,r_squared
+0,dem_resilience,gini,educational_polarization,welfare_capacity_index,none,-0.01873999749544992,0.01474778186434735,0.20421593027698032,False,782,0.06989028291186294
+1,dem_resilience,gini,educational_polarization,welfare_capacity_index,gdp,-0.01873999749544992,0.01474778186434735,0.20421593027698032,False,782,0.06989028291186294
+2,dem_resilience,gini,secondary_enrollment,welfare_capacity_index,none,-0.016859874853665687,0.01427072487822838,0.23779307390717974,False,782,0.12823367444417322
+3,dem_resilience,gini,secondary_enrollment,welfare_capacity_index,gdp,-0.016859874853665687,0.01427072487822838,0.23779307390717974,False,782,0.12823367444417322
+8,vdem_polyarchy,gini,educational_polarization,welfare_capacity_index,none,-0.01873999749544992,0.01474778186434735,0.20421593027698032,False,782,0.06989028291186294
+9,vdem_polyarchy,gini,educational_polarization,welfare_capacity_index,gdp,-0.01873999749544992,0.01474778186434735,0.20421593027698032,False,782,0.06989028291186294
+10,vdem_polyarchy,gini,secondary_enrollment,welfare_capacity_index,none,-0.016859874853665687,0.01427072487822838,0.23779307390717974,False,782,0.12823367444417322
+11,vdem_polyarchy,gini,secondary_enrollment,welfare_capacity_index,gdp,-0.016859874853665687,0.01427072487822838,0.23779307390717974,False,782,0.12823367444417322

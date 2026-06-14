@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "analysis_type": "Pilot Methodology Demonstration: Inequality-Democracy Research",
+    "data_source": "Synthetic panel data (23 countries, 1990-2023)",
+    "disclaimer": "\n*** PILOT DATA - METHODOLOGY DEMONSTRATION ONLY - NOT FOR PUBLICATION ***\nSynthetic data based on patterns from V-Dem, Polity IV, World Bank PIP, OECD SOCX\nResults illustrative of methodology only. Do not cite or reproduce without permission.\n",
+    "n_countries": 23,
+    "n_observations": 782,
+    "time_period": "1990-2023",
+    "preregistered": false,
+    "analysis_date": "2026-06-14T23:29:07.185819",
+    "note": "PILOT - METHODOLOGY DEMONSTRATION ONLY"
+  },
+  "datasets": [
+    {
+      "dataset": "pilot_methodology_results",
+      "examples": [
+        {
+          "input": "{\"method\": \"System GMM\", \"specification\": \"pooled_ols\", \"description\": \"System GMM with collapsed instruments\"}",
+          "output": "{\"formula\": \"dem_resilience ~ L1_gini\", \"coefficients\": {\"L1_gini\": 0.017680328162598992}, \"std_errors\": {\"L1_gini\": 0.00018943738348602373}, \"pvalues\": {\"L1_gini\": 0.0}, \"r_squared\": 0.9102362527926044, \"n_obs\": 759}",
+          "metadata_method": "system_gmm",
+          "metadata_specification": "pooled_ols",
+          "predict_system_gmm": "GMM: gini coef = 0.0177"
+        },
+        {
+          "input": "{\"method\": \"System GMM\", \"specification\": \"iv_collapsed\", \"description\": \"System GMM with collapsed instruments\"}",
+          "output": "{\"method\": \"IV with collapsed instrument (L2_gini only)\", \"first_stage_f_stat\": 3910.630791761004, \"coefficients\": {\"constant\": 0.6207343804008855, \"mediator\": 0.30895195819788196, \"gini_hat\": 0.00017281047143583744}, \"std_errors\": {\"constant\": 0.06265901551944043, \"mediator\": 0.08460343320107981, \"gini_hat\": 0.0011380417368426722}, \"n_obs\": 736, \"instrument\": \"L2_gini (collapsed)\"}",
+          "metadata_method": "system_gmm",
+          "metadata_specification": "iv_collapsed",
+          "predict_system_gmm": "GMM: estimation failed"
+        },
+        {
+          "input": "{\"method\": \"IV Estimation\", \"specification\": \"main_iv\", \"description\": \"IV with historical instruments\"}",
+          "output": "{\"method\": \"Manual 2SLS with historical instruments\", \"first_stage_f_stat\": 122.91202935190863, \"first_stage_partial_r2\": 0.3215527024015722, \"coefficients\": {\"constant\": 0.7895054350470844, \"gini\": -0.0007041152559222794}, \"std_errors\": {\"constant\": 0.0867624399117386, \"gini\": 0.0020215378093805113}, \"n_obs\": 782, \"instruments\": [\"land_ineq_1960\", \"settler_mortality_log\", \"abs_latitude\"], \"instrument_relevance\": \"Strong\", \"note\": \"Manual 2SLS - SEs are approximate\"}",
+          "metadata_method": "iv_estimation",
+          "metadata_specification": "main_iv",
+          "predict_iv_estimation": "IV: gini coef = -0.0007"
+        }
+      ]
+    }
+  ]
+}

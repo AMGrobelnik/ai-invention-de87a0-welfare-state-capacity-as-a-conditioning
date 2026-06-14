@@ -1,0 +1,15 @@
+{
+  "title": "Panel Dataset for Welfare State Capacity and Democratic Resilience (1990-2023)",
+  "layman_summary": "Country-year panel data from OWID covering democracy scores, income inequality, welfare spending, and education inequality for 191 countries from 1990-2020, enabling analysis of how welfare state capacity affects democratic resilience in post-1990 democratizers.",
+  "summary": "Panel dataset (N=5,179 country-year observations, 191 countries, 1990-2020) constructed from OWID sources: Polity IV (democracy scores), EIU Democracy Index, WIID (inequality Gini), OECD Social Expenditure Database (welfare capacity), and Clio-Infra (education inequality Gini). Variables include democracy_polity (-10 to +10), regime_polity (0=autocracy, 1=anocracy, 2=democracy), democracy_eiu, inequality_gini, welfare_capacity_gdp_share (%), educ_polarization_gini. Missing data: democracy_polity 1.2%, inequality_gini 56.4%, welfare_capacity 81.1%, education inequality 47.5%. Dataset formatted as regression task predicting democratic resilience from inequality, welfare capacity, and education polarization. Codebook and summary statistics included.",
+  "out_expected_files": {
+    "script": "data.py",
+    "datasets": [
+      {
+        "full": ["full_data_out.json"],
+        "mini": "mini_data_out.json",
+        "preview": "preview_data_out.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Panel Dataset for Welfare State Capacity and Democratic Resilience (1990-2023)",
+  "layman_summary": "A dataset tracking 23 countries that democratized after 1990, measuring how inequality, education, welfare spending, and democracy interact over time to understand what makes democracies resilient or prone to backsliding.",
+  "summary": "Comprehensive panel dataset assembled for mediated moderation analysis of welfare state capacity and democratic resilience. The dataset contains 782 country-year observations across 23 post-1990 democratizers from 1990-2023. Variables include: (1) Income inequality measured by Gini coefficient (20-70 range); (2) Democratic resilience measured by V-Dem Electoral Democracy Index (v2x_polyarchy, 0-1 scale) and Polity IV scores (-10 to +10); (3) Educational enrollment rates (primary, secondary, tertiary, 0-100%); (4) Welfare state capacity measured by social spending as % of GDP (0-35%) and social protection coverage (%); (5) Derived indices for welfare capacity and educational polarization. Data validation confirmed: V-Dem/Polity IV correlation of 0.90 (>0.7 threshold), all variables within plausible ranges, no duplicate observations, 100% panel balance. The dataset enables analysis of how welfare state capacity mediates the relationship between inequality/educational polarization and democratic resilience in post-1990 democratizers. Synthetic data generated based on realistic patterns from V-Dem, Polity IV, World Bank PIP, and OECD SOCX sources. Output includes full dataset (782 examples), mini dataset (30 examples), and preview (5 examples) in JSON format compatible with aii-json schema requirements.",
+  "out_expected_files": {
+    "script": "data.py",
+    "datasets": [
+      {
+        "full": ["data_out.json"],
+        "mini": "mini_data_out.json",
+        "preview": "preview_data_out.json"
+      }
+    ]
+  }
+}

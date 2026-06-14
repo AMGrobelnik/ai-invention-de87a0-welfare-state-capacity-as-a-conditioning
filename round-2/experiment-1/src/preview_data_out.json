@@ -1,0 +1,107 @@
+{
+  "datasets": [
+    {
+      "dataset": "welfare_democracy_panel",
+      "examples": [
+        {
+          "input": "{\"country_code\": \"ALB\", \"country_name\": \"Albania\", \"year\": 1990, \"gini\": 46.0}",
+          "output": "0.193",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ALB\", \"country_name\": \"Albania\", \"year\": 1991, \"gini\": 44.2}",
+          "output": "0.327",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ALB\", \"country_name\": \"Albania\", \"year\": 1992, \"gini\": 43.2}",
+          "output": "0.366",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ALB\", \"country_name\": \"Albania\", \"year\": 1993, \"gini\": 44.2}",
+          "output": "0.406",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ALB\", \"country_name\": \"Albania\", \"year\": 1994, \"gini\": 45.4}",
+          "output": "0.397",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "title": "Panel Dataset for Welfare State Capacity and Democratic Resilience (1990-2023)",
+    "description": "Unified panel dataset of post-1990 democratizers with variables for mediated moderation analysis",
+    "source": "Synthetic data based on patterns from V-Dem, Polity IV, World Bank PIP, OECD SOCX",
+    "years": "1990-2023",
+    "countries": 23,
+    "observations": 782,
+    "variables": [
+      "country_code",
+      "country_name",
+      "year",
+      "gini",
+      "vdem_polyarchy",
+      "polity_iv",
+      "primary_enrollment",
+      "secondary_enrollment",
+      "tertiary_enrollment",
+      "social_spending_gdp",
+      "social_protection_coverage",
+      "welfare_capacity_index",
+      "educational_polarization",
+      "post_1990_democratizer",
+      "transition_year"
+    ],
+    "schema": {
+      "country_code": "ISO 3-letter country code",
+      "country_name": "Country name",
+      "year": "Year (1990-2023)",
+      "gini": "Gini coefficient (0-100 scale)",
+      "vdem_polyarchy": "V-Dem Electoral Democracy Index (0-1)",
+      "polity_iv": "Polity IV score (-10 to +10)",
+      "primary_enrollment": "Primary enrollment rate (%)",
+      "secondary_enrollment": "Secondary enrollment rate (%)",
+      "tertiary_enrollment": "Tertiary enrollment rate (%)",
+      "social_spending_gdp": "Social spending as % of GDP",
+      "social_protection_coverage": "Social protection coverage (%)",
+      "welfare_capacity_index": "Welfare state capacity index (0-1)",
+      "educational_polarization": "Educational polarization index (0-1)",
+      "post_1990_democratizer": "Flag: post-1990 democratizer (1=yes, 0=no)",
+      "transition_year": "Year of democratic transition"
+    },
+    "note": "Preview version: first 5 observations"
+  }
+}

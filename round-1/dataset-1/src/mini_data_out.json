@@ -1,0 +1,382 @@
+{
+  "datasets": [
+    {
+      "dataset": "welfare_democracy_panel",
+      "examples": [
+        {
+          "input": "{\"country_code\": \"ALB\", \"country_name\": \"Albania\", \"year\": 1990, \"gini\": 46.0}",
+          "output": "0.193",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ALB\", \"country_name\": \"Albania\", \"year\": 1991, \"gini\": 44.2}",
+          "output": "0.327",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ALB\", \"country_name\": \"Albania\", \"year\": 1992, \"gini\": 43.2}",
+          "output": "0.366",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ALB\", \"country_name\": \"Albania\", \"year\": 1993, \"gini\": 44.2}",
+          "output": "0.406",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ALB\", \"country_name\": \"Albania\", \"year\": 1994, \"gini\": 45.4}",
+          "output": "0.397",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ALB\", \"country_name\": \"Albania\", \"year\": 1995, \"gini\": 47.0}",
+          "output": "0.509",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ALB\", \"country_name\": \"Albania\", \"year\": 1996, \"gini\": 46.3}",
+          "output": "0.462",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ALB\", \"country_name\": \"Albania\", \"year\": 1997, \"gini\": 44.0}",
+          "output": "0.585",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ALB\", \"country_name\": \"Albania\", \"year\": 1998, \"gini\": 47.4}",
+          "output": "0.718",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ALB\", \"country_name\": \"Albania\", \"year\": 1999, \"gini\": 45.8}",
+          "output": "0.778",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ARM\", \"country_name\": \"Armenia\", \"year\": 1990, \"gini\": 47.3}",
+          "output": "0.201",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ARM\", \"country_name\": \"Armenia\", \"year\": 1991, \"gini\": 45.3}",
+          "output": "0.333",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ARM\", \"country_name\": \"Armenia\", \"year\": 1992, \"gini\": 45.8}",
+          "output": "0.319",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ARM\", \"country_name\": \"Armenia\", \"year\": 1993, \"gini\": 47.1}",
+          "output": "0.415",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ARM\", \"country_name\": \"Armenia\", \"year\": 1994, \"gini\": 45.4}",
+          "output": "0.456",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ARM\", \"country_name\": \"Armenia\", \"year\": 1995, \"gini\": 47.2}",
+          "output": "0.541",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ARM\", \"country_name\": \"Armenia\", \"year\": 1996, \"gini\": 45.8}",
+          "output": "0.58",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ARM\", \"country_name\": \"Armenia\", \"year\": 1997, \"gini\": 46.9}",
+          "output": "0.631",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ARM\", \"country_name\": \"Armenia\", \"year\": 1998, \"gini\": 44.1}",
+          "output": "0.634",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"ARM\", \"country_name\": \"Armenia\", \"year\": 1999, \"gini\": 45.0}",
+          "output": "0.712",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"BGR\", \"country_name\": \"Bulgaria\", \"year\": 1990, \"gini\": 40.1}",
+          "output": "0.26",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"BGR\", \"country_name\": \"Bulgaria\", \"year\": 1991, \"gini\": 47.4}",
+          "output": "0.363",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"BGR\", \"country_name\": \"Bulgaria\", \"year\": 1992, \"gini\": 45.8}",
+          "output": "0.504",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"BGR\", \"country_name\": \"Bulgaria\", \"year\": 1993, \"gini\": 41.6}",
+          "output": "0.432",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"BGR\", \"country_name\": \"Bulgaria\", \"year\": 1994, \"gini\": 45.9}",
+          "output": "0.539",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"BGR\", \"country_name\": \"Bulgaria\", \"year\": 1995, \"gini\": 45.9}",
+          "output": "0.562",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"BGR\", \"country_name\": \"Bulgaria\", \"year\": 1996, \"gini\": 46.6}",
+          "output": "0.617",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"BGR\", \"country_name\": \"Bulgaria\", \"year\": 1997, \"gini\": 47.2}",
+          "output": "0.604",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"BGR\", \"country_name\": \"Bulgaria\", \"year\": 1998, \"gini\": 42.2}",
+          "output": "0.775",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        },
+        {
+          "input": "{\"country_code\": \"BGR\", \"country_name\": \"Bulgaria\", \"year\": 1999, \"gini\": 46.1}",
+          "output": "0.786",
+          "metadata_fold": null,
+          "metadata_feature_names": [
+            "country_code",
+            "country_name",
+            "year",
+            "gini"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "title": "Panel Dataset for Welfare State Capacity and Democratic Resilience (1990-2023)",
+    "description": "Unified panel dataset of post-1990 democratizers with variables for mediated moderation analysis",
+    "source": "Synthetic data based on patterns from V-Dem, Polity IV, World Bank PIP, OECD SOCX",
+    "years": "1990-2023",
+    "countries": 23,
+    "observations": 782,
+    "variables": [
+      "country_code",
+      "country_name",
+      "year",
+      "gini",
+      "vdem_polyarchy",
+      "polity_iv",
+      "primary_enrollment",
+      "secondary_enrollment",
+      "tertiary_enrollment",
+      "social_spending_gdp",
+      "social_protection_coverage",
+      "welfare_capacity_index",
+      "educational_polarization",
+      "post_1990_democratizer",
+      "transition_year"
+    ],
+    "schema": {
+      "country_code": "ISO 3-letter country code",
+      "country_name": "Country name",
+      "year": "Year (1990-2023)",
+      "gini": "Gini coefficient (0-100 scale)",
+      "vdem_polyarchy": "V-Dem Electoral Democracy Index (0-1)",
+      "polity_iv": "Polity IV score (-10 to +10)",
+      "primary_enrollment": "Primary enrollment rate (%)",
+      "secondary_enrollment": "Secondary enrollment rate (%)",
+      "tertiary_enrollment": "Tertiary enrollment rate (%)",
+      "social_spending_gdp": "Social spending as % of GDP",
+      "social_protection_coverage": "Social protection coverage (%)",
+      "welfare_capacity_index": "Welfare state capacity index (0-1)",
+      "educational_polarization": "Educational polarization index (0-1)",
+      "post_1990_democratizer": "Flag: post-1990 democratizer (1=yes, 0=no)",
+      "transition_year": "Year of democratic transition"
+    },
+    "note": "Mini version: 3 countries x 10 years"
+  }
+}

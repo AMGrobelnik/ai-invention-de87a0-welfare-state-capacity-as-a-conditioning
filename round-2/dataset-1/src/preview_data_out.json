@@ -1,0 +1,51 @@
+{
+  "datasets": [
+    {
+      "dataset": "welfare_state_democracy_panel",
+      "examples": [
+        {
+          "input": "{\"democracy_polity\": -8.0, \"regime_polity\": 0.0, \"educ_polarization_gini\": 83.84232330322266}",
+          "output": "-8.0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "democracy_polity",
+            "regime_polity",
+            "educ_polarization_gini"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 0,
+          "metadata_country": "Afghanistan",
+          "metadata_year": 1990
+        },
+        {
+          "input": "{\"democracy_polity\": -8.0, \"regime_polity\": 0.0, \"educ_polarization_gini\": 82.84169006347656}",
+          "output": "-8.0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "democracy_polity",
+            "regime_polity",
+            "educ_polarization_gini"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 1,
+          "metadata_country": "Afghanistan",
+          "metadata_year": 1991
+        },
+        {
+          "input": "{\"democracy_polity\": 0.0, \"regime_polity\": 1.0, \"educ_polarization_gini\": 81.89083099365234}",
+          "output": "0.0",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "democracy_polity",
+            "regime_polity",
+            "educ_polarization_gini"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 2,
+          "metadata_country": "Afghanistan",
+          "metadata_year": 1992
+        }
+      ]
+    }
+  ]
+}

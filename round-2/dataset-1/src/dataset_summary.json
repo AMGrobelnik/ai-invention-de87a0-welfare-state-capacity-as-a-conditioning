@@ -1,0 +1,6 @@
+{
+  "dataset_name": "welfare_state_democracy_panel",
+  "n_examples": 5179,
+  "n_features": 5,
+  "task_type": "regression"
+}

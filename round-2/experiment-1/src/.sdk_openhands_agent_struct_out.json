@@ -1,0 +1,11 @@
+{
+  "title": "Pilot Methodology: System GMM, IV, Mediation",
+  "layman_summary": "Demonstrates econometric methods for studying how income inequality affects democratic resilience using synthetic panel data from 23 countries (1990-2023).",
+  "summary": "Comprehensive pilot implementation of econometric methods for inequality-democracy research using synthetic panel data (782 country-year observations from 23 post-1990 democratizers, 1990-2023). Methods implemented: (1) System GMM with Collapsed Instruments - Pooled OLS and IV with collapsed instrument (L2_gini only, first-stage F-statistic: 3910.63); (2) IV Estimation with Historical Instruments - Manual 2SLS with land_ineq_1960, settler_mortality_log, abs_latitude as instruments (first-stage F-statistic: 122.91, strong instruments); (3) Mediation Analysis with Panel Bootstrap - 100 bootstrap repetitions with cluster resampling, path a (X->M): 0.0009 (p=0.031), path b (M->Y): 0.2235 (p=0.017), indirect effect: 0.0002, 95% CI: [-0.0000, 0.0005] (not significant), proportion mediated: 14.1%; (4) Specification Curve Analysis - 16 specifications tested, 0% significant (p<0.05), median coefficient: -0.0178. All results marked with prominent PILOT DISCLAIMER - synthetic data for methodology demonstration only, not for publication.",
+  "out_expected_files": {
+    "script": "method.py",
+    "full_output": "full_method_out.json",
+    "mini_output": "mini_method_out.json",
+    "preview_output": "preview_method_out.json"
+  }
+}
